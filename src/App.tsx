@@ -4,6 +4,8 @@ import Slider from './components/Slider';
 import Cards from './components/Cards';
 import About from './components/About';
 import Gallery from './components/Gallery';
+import SocialMedia from './components/SocialMedia';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
             <Cards />
             <About />
             <Gallery />
+            <SocialMedia />
+            <Footer />
         </div>
     </div>
 
