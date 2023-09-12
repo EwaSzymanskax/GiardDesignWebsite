@@ -9,7 +9,6 @@ function Menu(){
     const [elementVisible, setElementVisible] = useState(false);
 
     const visible=()=>{
-        console.log('lala');
         setElementVisible(!elementVisible)
         }
     
