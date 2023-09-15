@@ -1,0 +1,38 @@
+  .slick-arrow {
+    position: absolute;
+    bottom: 0px;
+    padding: 48px; 
+    background: center center no-repeat;
+    z-index: 3;
+
+  }
+
+  .slick-arrow.slick-next:before {
+    content: "";
+  }
+  
+  .slick-arrow.slick-prev:before {
+    content: "";
+  }
+
+  .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    background: center center no-repeat;
+  }
+
+  .slick-arrow.slick-prev{
+    left: 1167px;
+    top: 700px;
+  }
+
+  
+  .slick-arrow.slick-next{
+    left: 1255px;
+    top: 645px;
+  }
+
+  .slick-track{
+    width: 100vw
+  }
+  .slick-list{
+    height: calc(100% - 64px);
+  }

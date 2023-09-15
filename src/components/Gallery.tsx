@@ -59,19 +59,20 @@ const Gallery =(): JSX.Element =>{
                         <a href="image/projects/Photo (10).png" className="grid-item mb-3" data-pswp-width="451" data-pswp-height="338"><img src={Photo10} alt="taras"/></a>
                         <a href="image/projects/Photo (11).png" className="grid-item mb-3" data-pswp-width="451" data-pswp-height="338"><img src={Photo11} alt="dach"/></a>
 
-                        {imgShow? 
-                        <div>
-                           <a href="image/projects/Photo (8).png" className="grid-item mb-3" data-pswp-width="451" data-pswp-height="451"><img src={Photo8} alt="drzewo"/></a>
-                            <a href="image/projects/Photo (10).png" className="grid-item mb-3" data-pswp-width="451" data-pswp-height="338"><img src={Photo10} alt="taras"/></a>
-                            <a href="image/projects/Photo (3).png" className="grid-item mb-3" data-pswp-width="451" data-pswp-height="600"><img src={Photo3} alt="schody"/></a>
-                        </div>
-                            : <div id="blurDiv" className="pointer-events-none bg-gradient-to-t from-beige absolute z-10 w-full h-full bottom-0" ></div>}
+                        {imgShow &&
+                           <a href="image/projects/Photo (8).png" className="grid-item mb-3" data-pswp-width="451" data-pswp-height="451"><img src={Photo8} alt="drzewo"/></a>}
+                        {imgShow &&
+                            <a href="image/projects/Photo (10).png" className="grid-item mb-3" data-pswp-width="451" data-pswp-height="338"><img src={Photo10} alt="taras"/></a>}
+                        {imgShow &&
+                            <a href="image/projects/Photo (3).png" className="grid-item mb-3" data-pswp-width="451" data-pswp-height="600"><img src={Photo3} alt="schody"/></a>}
+                        {!imgShow &&
+                            <div id="blurDiv" className="pointer-events-none bg-gradient-to-t from-beige absolute z-10 w-full h-full bottom-0" ></div>}
                     </Masonry>
                 </ResponsiveMasonry>
                 </div>
-                <div className="flex flex-column mx-auto place-items-center">
+                {!imgShow && <div className="flex flex-column mx-auto place-items-center">
                     <button type="button" id="addButton" className="flex flex-row mx-auto mt-16 mb-6 w-32 h-12 border border-black rounded-full text-base place-content-center pt-3" onClick={buttonHandler} >Rozwiń <img className="w-4 h-4 pl-1 mt-1" src={vectorBlack} alt="strzałka"/></button>
-                </div>
+                </div>}
             </div>
         </div>
     )

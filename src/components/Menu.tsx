@@ -5,6 +5,7 @@ import iconSearch from "../Icons/IconSearch.png"
 import logo from '../image/giarddesign.png';
 
 function Menu(){
+    
 
     const [elementVisible, setElementVisible] = useState(false);
 

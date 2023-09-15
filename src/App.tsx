@@ -1,6 +1,6 @@
 import React from 'react';
 import Menu from './components/Menu';
-import Slider from './components/Slider';
+import SliderAbout from './components/SliderAbout';
 import Cards from './components/Cards';
 import About from './components/About';
 import Gallery from './components/Gallery';
@@ -15,7 +15,7 @@ function App() {
         <div className="bg-white">
             <Menu />
         </div>
-            <Slider />
+            <SliderAbout />
         <div className="bg-light-beige lg:pt-[120px] lg:flex lg:flex-col lg:place-items-center">
             <Text titleFirst='Działamy' titleSecond='kompleksowo' description="Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy nowoczesne ogrody przydomowe oraz rezydencjonalne. Stworzymy dla Ciebie projekt, zwizualizujemy go i wcielimy w życie, a na każdym etapie posłużymy radą i wieloletnim doświadczeniem."/>  
             <Cards />
