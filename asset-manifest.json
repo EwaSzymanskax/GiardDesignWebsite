@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GiardDesignWebsite/static/css/main.0ccc094f.css",
+    "main.css": "/GiardDesignWebsite/static/css/main.d312f645.css",
     "main.js": "/GiardDesignWebsite/static/js/main.4d00dcd5.js",
     "static/js/787.c1112931.chunk.js": "/GiardDesignWebsite/static/js/787.c1112931.chunk.js",
     "static/media/House.png": "/GiardDesignWebsite/static/media/House.cd17998cd96aa2167ab6.png",
@@ -20,12 +20,12 @@
     "static/media/slick.woff": "/GiardDesignWebsite/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/GiardDesignWebsite/index.html",
     "static/media/bars-solid (1).svg": "/GiardDesignWebsite/static/media/bars-solid (1).34b6d4f73e126d6b67d3b1d06f2ad1c7.svg",
-    "main.0ccc094f.css.map": "/GiardDesignWebsite/static/css/main.0ccc094f.css.map",
+    "main.d312f645.css.map": "/GiardDesignWebsite/static/css/main.d312f645.css.map",
     "main.4d00dcd5.js.map": "/GiardDesignWebsite/static/js/main.4d00dcd5.js.map",
     "787.c1112931.chunk.js.map": "/GiardDesignWebsite/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ccc094f.css",
+    "static/css/main.d312f645.css",
     "static/js/main.4d00dcd5.js"
   ]
 }
