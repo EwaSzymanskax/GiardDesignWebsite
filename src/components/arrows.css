@@ -60,30 +60,29 @@
    
   }
 
-  @media(min-width: 1240px){
+  @media(min-width: 1440px){
     .slick-arrow {
       padding: 48px;
     }
 
     .slick-arrow.slick-prev{
-    left: 1250px; 
+    left: 1245px; 
     top: 800px;
     width: 48px;
     height: 48px;
     }
 
     .slick-arrow.slick-next{
-    left: 1345px;
+    left: 1327px;
     top: 800px;
     width: 48px;
     height: 48px;
     }
   }
-  
 
-  /* .slick-track{
+   .slick-track{
     width: 100vw
-  } */
+  }
   .slick-list{
     height: calc(100% - 64px);
   }
