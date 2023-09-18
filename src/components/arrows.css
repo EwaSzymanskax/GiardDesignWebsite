@@ -66,15 +66,19 @@
     }
 
     .slick-arrow.slick-prev{
-    left: 1390px; 
-    top: 900px;
+    left: unset; 
+    top: unset;
+    bottom: -50px;
+    right: 96px;
     width: 48px;
     height: 48px;
     }
 
     .slick-arrow.slick-next{
-    left: 1485px;
-    top: 900px;
+    left: unset;
+    right: 0px;
+    top: unset;
+    bottom: -50px;
     width: 48px;
     height: 48px;
     }
