@@ -17,7 +17,7 @@ function SliderAbout() {
         return (
             <div
             className={className}
-            style={{ ...style, width: '48px', height: '48px', backgroundColor: 'rgba(245,240,236)', zIndex: "2", left: "1250px", top:"800px", backgroundImage: `url(${prevArrow})`}}
+            style={{ ...style, width: '24px', height: '24px', backgroundColor: 'rgba(245,240,236)', zIndex: "2", backgroundImage: `url(${prevArrow})`}}
             onClick={onClick}
             />
         );
@@ -28,7 +28,7 @@ function SliderAbout() {
         return (
             <div
             className={className}
-            style={{ ...style, width: '48px', height: '48px', backgroundColor: 'rgba(245,240,236)', left: "1327px", top:"800px", backgroundImage: `url(${nextArrow})`}}
+            style={{ ...style, width: '24px', height: '24px', backgroundColor: 'rgba(245,240,236)', backgroundImage: `url(${nextArrow})`}}
             onClick={onClick}
             />
         );
