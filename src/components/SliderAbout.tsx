@@ -17,7 +17,7 @@ function SliderAbout() {
         return (
             <div
             className={className}
-            style={{ ...style, width: '48px', height: '48px', backgroundColor: 'rgba(245,240,236)', zIndex: "2", backgroundImage: `url(${prevArrow})`}}
+            style={{ ...style, width: '48px', height: '48px', backgroundColor: 'rgba(245,240,236)', zIndex: "2", left: "1250px", top:"800px", backgroundImage: `url(${prevArrow})`}}
             onClick={onClick}
             />
         );
@@ -28,7 +28,7 @@ function SliderAbout() {
         return (
             <div
             className={className}
-            style={{ ...style, width: '48px', height: '48px', backgroundColor: 'rgba(245,240,236)', backgroundImage: `url(${nextArrow})`}}
+            style={{ ...style, width: '48px', height: '48px', backgroundColor: 'rgba(245,240,236)', left: "1327px", top:"800px", backgroundImage: `url(${nextArrow})`}}
             onClick={onClick}
             />
         );
@@ -47,8 +47,8 @@ function SliderAbout() {
     // <section  id="slide-container" className=" bg-beige lg:flex lg:flex-row overflow-hidden items-center relative">
     <section id="slide-container" className=" bg-beige relative">
          <Slider {...settings}>
-         <div className="h-[calc(100vh-44px)] lg:min-h-[737px]">
-            <div className="h-[calc(100vh-46px)]">
+         <div className="h-[calc(100vh-54px)] lg:min-h-[737px]">
+            <div className="h-[calc(100vh-56px)]">
                 <div className="flex flex-col items-center lg:flex-row  top-5 lg:top-0 xl:pt-0 h-full">
                     <div className=" h-min text-center lg:text-start lg:mr-8 xl:mr-16">
                         <div className="flex flex-col place-content-center">
@@ -68,8 +68,9 @@ function SliderAbout() {
                 </div>
             </div>
         </div> 
-          <div>
-          <div className="flex flex-col items-center lg:flex-row  top-5 lg:top-0 xl:pt-0 h-full">
+          <div className="h-[calc(100vh-54px)] lg:min-h-[737px]">
+            <div className="h-[calc(100vh-56px)]">
+             <div className="flex flex-col items-center lg:flex-row  top-5 lg:top-0 xl:pt-0 h-full">
                  <div className=" h-min text-center lg:text-start lg:mr-8 xl:mr-16">
                     <div className="flex flex-col place-content-center">
                         <h1 className="flex font-montserrat font-medium text-2xl pt-5 mb-10 lg:text-6xl lg:ml-20 mx-auto lg:mb-11 xl:w-[560px] lg:leading-[70px]">Każdy projekt to nowe wyzwanie</h1>
@@ -87,6 +88,8 @@ function SliderAbout() {
                 </div>   
             </div>
           </div>
+        </div>
+    
            
         {/* <div className="h-[calc(100vh-44px)] lg:min-h-[737px]">
         <div>
