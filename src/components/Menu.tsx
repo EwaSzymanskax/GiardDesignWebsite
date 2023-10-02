@@ -11,7 +11,11 @@ function Menu(){
 
     const visible=()=>{
         setElementVisible(!elementVisible)
-        }
+        };
+    
+    const nonVisible=()=>{
+        setElementVisible(!elementVisible)
+    };
     
 return(
     <header>
@@ -32,7 +36,7 @@ return(
                 {elementVisible ? (
                 <li className=" -mt-[4px]" id="input">
                 <input defaultValue="Szukaj..." className="border-black border-2 h-8 pl-1 duration-500 ease-out transition-all"></input>
-                <button type="button" id="closeButton" className=" ml-3 text-black text-base">X</button></li>) : null}
+                <button type="button" id="closeButton" className=" ml-3 text-black text-base" onClick={nonVisible}>X</button></li>) : null}
                 <li className="w-5 h-5" onClick={visible}><img id="search" src={iconSearch} alt="lupa"></img></li>
             </ul>
         </div>

@@ -3,7 +3,7 @@ import Menu from './components/Menu';
 import SliderAbout from './components/SliderAbout';
 import Cards from './components/Cards';
 import About from './components/About';
-import Gallery from './components/Gallery';
+import Gallery from './components/GalleryImg';
 import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
 import Text from './components/Text';
