@@ -44,7 +44,6 @@ function SliderAbout() {
       };
 
     return (
-    // <section  id="slide-container" className=" bg-beige lg:flex lg:flex-row overflow-hidden items-center relative">
     <section id="slide-container" className=" bg-beige relative">
          <Slider {...settings}>
          <div className="h-[calc(100vh-54px)] lg:min-h-[737px]">
@@ -63,12 +62,12 @@ function SliderAbout() {
                     </div>
                     <div className="flex flex-col mx-auto place-items-center lg:place-items-end z-1 lg:h-full relative">
                         <img id="imgMove" className="w-full mb-3 bg-beige place-items-center md:w-screen lg:mb-0 lg:min-w-[600px] xl:ml-[35px] xl:min-w-full
-                        z-1 duration-500 ease-out transition-all lg:h-full overflow-hidden" src={garden} alt="ogród" />
+                        z-1 duration-500 ease-out transition-all lg:h-full overflow-hidden relative" src={garden} alt="ogród" />
                     </div>   
                 </div>
             </div>
         </div> 
-          <div className="h-[calc(100vh-54px)] lg:min-h-[737px]">
+          <div className="h-[calc(100vh-54px)] xl:min-h-[737px]">
             <div className="h-[calc(100vh-54px)]">
              <div className="flex flex-col items-center lg:flex-row  top-5 lg:top-0 xl:pt-0 h-full">
                  <div className=" h-min text-center lg:text-start lg:mr-8 xl:mr-16">
