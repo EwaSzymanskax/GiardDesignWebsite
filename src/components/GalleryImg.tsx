@@ -26,7 +26,7 @@ const GalleryImg =(): JSX.Element =>{
                 <h1 className="text-xl mx-5 text-green lg:text-xs lg:ml-52">Realizacje</h1>
                 <h2 className=" font-montserrat font-medium text-3xl mt-5 mx-5 mb-24 lg:text-5xl lg:ml-52">Nasze <span className="font-inter italic">projekty</span></h2>
             </header>
-            <div>
+            <div className="mx-5">
                 <div className="z-0 gallery relative gap-x-3">
                 <Gallery>
                 <ResponsiveMasonry
