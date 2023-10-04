@@ -23,7 +23,7 @@ function Slide({title, description, image}: Props) {
                             </div>
                         </div>
                         <div className="flex flex-col mx-auto place-items-center lg:place-items-end z-1 lg:h-full relative">
-                            <img id="imgMove" className="w-full bg-beige place-items-center md:w-screen lg:mb-0 lg:min-w-[600px] xl:ml-[35px] xl:min-w-full
+                            <img id="imgMove" className="w-full bg-beige place-items-center md:w-screen lg:mb-0 lg:min-w-[400px] xl:ml-[35px] min-w-full
                             z-1 duration-500 ease-out transition-all lg:h-full overflow-hidden relative" src={image} alt="ogród" />
                         </div>   
                     </div>

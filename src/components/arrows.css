@@ -52,7 +52,7 @@
    
   }
   
-  @media(min-width: 1040px){
+  @media(min-width: 1024px){
     .slick-arrow {
       padding: 48px;
     }
